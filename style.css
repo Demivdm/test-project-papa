@@ -1,0 +1,22 @@
+.options{
+    display: flex;
+}
+.dropdown {
+  visibility: hidden;
+  margin-top: 5px;
+
+}
+.input{
+    display: flex;
+}
+input[type="radio"] {
+  margin-top: -1px;
+  vertical-align: middle;
+}
+label{
+    display: flex;
+}
+
+.dropdown.visible {
+  visibility: visible;
+}
