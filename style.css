@@ -3,14 +3,15 @@
 }
 .dropdown {
   visibility: hidden;
-  margin-top: 5px;
+  margin: 6px 6px 0 10px;
+
 
 }
 .input{
     display: flex;
 }
 input[type="radio"] {
-  margin-top: -1px;
+margin: 0 5px 0 0;
   vertical-align: middle;
 }
 label{
@@ -20,9 +21,39 @@ label{
 .dropdown.visible {
   visibility: visible;
 }
+
 button{
   background: none;
   border: none;
   cursor: pointer;
   color: black;
+  background-color: rgb(195, 221, 255);
+  width: 100%;
+  min-width: 55px;
+  border-radius: 6px 6px 0 0;
+  padding: 0 10px 0 10px;
+}
+.outer-dropdown:nth-of-type(1) .dropdown-btn {
+  cursor: auto;
+}
+.outer-dropdown:nth-of-type(2) .dropdown-btn {
+  cursor: alias;
+}
+
+.outer-dropdown{
+  width: 100%;
+  min-width: min-content;
+
+
+}
+.options{
+  width: 100%;
+}
+form{
+   width: 180px;
+}
+.submit{
+  margin: 10px 0 0 0;
+  max-width: min-content;
+  background-color: transparent;  
 }
